@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
-  res.send("어서오세요 반갑습니다 혼또니 바꿨어요");
+  res.send("어서오세요 반갑습니다 또 바꿨써!");
 });
 
 app.post("/join", (req: Request, res: Response, next: NextFunction) => {

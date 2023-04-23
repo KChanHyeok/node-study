@@ -50,7 +50,7 @@ app.get("/login", (req: Request, res: Response, next: NextFunction) => {
   });
 });
 
-app.listen("8080", () => {
+app.listen("8070", () => {
   console.log(`
   ################################################
   🛡️  Server listening on port: 1234🛡️

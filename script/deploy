@@ -7,7 +7,6 @@ ssh  kchan@172.30.1.39
     npm install
     npm install -g typescript
     npm install -g ts-node
-    npm install -g pm2
     pm2 install typescript
     pm2 restart ecosystem.config.js
     exit
